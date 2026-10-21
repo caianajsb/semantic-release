@@ -1,0 +1,51 @@
+name: Release Automation
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - beta
+      - alpha
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Create Semantic Release
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Setup Runtime Environment
+        uses: actions/setup-node@0a44ba7841725637a19e28fa30b79a866c81b0a6
+        with:
+          node-version: '24'
+
+      - name: Execute Semantic Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npx \
+            --package=semantic-release@24.2.3 \
+            --package=@semantic-release/commit-analyzer@13.0.1 \
+            --package=@semantic-release/release-notes-generator@14.0.0 \
+            --package=@semantic-release/changelog@6.0.3 \
+            --package=@semantic-release/git@10.0.1 \
+            --package=@semantic-release/github@11.0.1 \
+            --package=@semantic-release/exec@7.1.0 \
+            --package=conventional-changelog-conventionalcommits@8.0.0 \
+            semantic-release
