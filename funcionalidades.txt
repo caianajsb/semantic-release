@@ -1,2 +1,3 @@
 FuncionalidadesC
 Cadastro de usuário
+Correção do CRUD
