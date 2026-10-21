@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/caianajsb/semantic-release/compare/v1.0.0...v2.0.0) (2026-10-21)
+
+### ⚠ BREAKING CHANGES
+
+* esta mudaça quebra
+
+### Features
+
+* esta mudaça quebra ([656d5cd](https://github.com/caianajsb/semantic-release/commit/656d5cddeae7d5fa3742c028662cda48ebe38f1d))
+
 ## 1.0.0 (2026-10-21)
 
 ### Features
