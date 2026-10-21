@@ -1,3 +1,9 @@
+## [2.1.1](https://github.com/caianajsb/semantic-release/compare/v2.1.0...v2.1.1) (2026-10-21)
+
+### Bug Fixes
+
+* correção do POST ([ff232f6](https://github.com/caianajsb/semantic-release/commit/ff232f6a41c8aba26acbd5338fb8f0f462d60430))
+
 ## [2.1.0](https://github.com/caianajsb/semantic-release/compare/v2.0.0...v2.1.0) (2026-10-21)
 
 ### Features
