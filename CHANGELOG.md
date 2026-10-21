@@ -1,3 +1,9 @@
+## [2.2.0](https://github.com/caianajsb/semantic-release/compare/v2.1.2...v2.2.0) (2026-10-21)
+
+### Features
+
+* adiciona package.json ([424a61e](https://github.com/caianajsb/semantic-release/commit/424a61e13d5d0c764aa5e66570707ebd034fa462))
+
 ## [2.1.2](https://github.com/caianajsb/semantic-release/compare/v2.1.1...v2.1.2) (2026-10-21)
 
 ### Bug Fixes
