@@ -1,3 +1,9 @@
+## [2.1.2](https://github.com/caianajsb/semantic-release/compare/v2.1.1...v2.1.2) (2026-10-21)
+
+### Bug Fixes
+
+* Alteração no CRUD ([a1b1e69](https://github.com/caianajsb/semantic-release/commit/a1b1e69f86592be59303ec31185d700c1ac45f90))
+
 ## [2.1.1](https://github.com/caianajsb/semantic-release/compare/v2.1.0...v2.1.1) (2026-10-21)
 
 ### Bug Fixes
