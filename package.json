@@ -1,0 +1,8 @@
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "description": "Uma breve descrição do meu projeto Node.js",
+  "keywords": ["node", "javascript", "api"],
+  "author": "Seu Nome <seu@email.com>",
+  "license": "ISC"
+}
