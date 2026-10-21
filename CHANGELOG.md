@@ -1,3 +1,9 @@
+## [2.1.0](https://github.com/caianajsb/semantic-release/compare/v2.0.0...v2.1.0) (2026-10-21)
+
+### Features
+
+* adiciona o cadastro de usuário ([f048064](https://github.com/caianajsb/semantic-release/commit/f048064aac0f179815c99b942c5974c4e35ac858))
+
 ## [2.0.0](https://github.com/caianajsb/semantic-release/compare/v1.0.0...v2.0.0) (2026-10-21)
 
 ### ⚠ BREAKING CHANGES
