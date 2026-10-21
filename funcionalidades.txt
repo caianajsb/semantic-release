@@ -1,1 +1,2 @@
-Funcionalidades
+FuncionalidadesC
+Cadastro de usuário
